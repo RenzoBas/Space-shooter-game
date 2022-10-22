@@ -1,6 +1,7 @@
 import "./App.css";
 import spaceship from "./assets/Galaga_Fighter.png";
 import React, { useEffect, useState } from "react";
+import timer from "./components/Timer.js";
 
 export default (App) => {
   const [marginLeft, setMarginLeft] = useState(0);
